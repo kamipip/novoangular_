@@ -3,16 +3,16 @@
     justify-content: center;
     align-items: center;
     margin-top: 150px ;
-    color: #ffff;
+    color: rgb(255, 255, 255);
     
 }
 
 .box-form form{
-    background-color:rgb(86, 69, 69);
+    background-color:#11313a;
     border-radius: 10px;
     padding: 30px;
-    height: 200px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 200px; 
+    box-shadow: #1304e0;
 }
 
 form {
@@ -23,23 +23,23 @@ form {
 .box-form form p {
     font-size: 14px;
     font-weight: 900;
-    color: #DCDCDC;
+    color: #f7f7f7;
 }
 
 
 .box-form input {
     width: 100%;
-    color:#ffff;
+    color:#ffffff;
     position: relative;
     padding: 5px;
     border: 0;
-    background: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    background: none; 
+    border-bottom: 2px solid #363f43;
     outline: none;
 }
 
 .box-form input:focus {
-    border-bottom: 1px solid #DCDCDC;
+    border-bottom: 1px solid #363f43;
     transition: ease-in 0.3s;
 }
 
@@ -52,9 +52,7 @@ form {
     outline: none;
     border: 0;
     cursor: pointer;
-    color: #e7c9c9;
-    background-image: linear-gradient(to right top, #d5c8cf, #e9dce7, 
-                                    #642e74, #382657, #050506, #3f424b, 
-                                    #061b33, #305873, #2d373a, #36393a,
-                                    #1a2323, #458f8a);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: #4f5d62;
+    background-image: linear-gradient;
+    box-shadow: rgba(255, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
